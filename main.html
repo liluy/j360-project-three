@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quiz</title>
+<meta name="description" content="Project Three Quiz">
+<meta name="author" content="Luyuan(Ruby) Li">
+<meta name="keywords" content="politics, news, quiz">
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="jquery-2.2.3.js"></script>
+<script src="javascript.js"></script>
+</head>
+
+<img src="images/head.png" style="max-width:100%;height:auto;" alt="images" class="align-center" >
+        
+<body>
+<form name="quiz">
+	<ol>
+    		<p>Who is the president after Regan?</p>
+    		<ul>
+            <li> <input type="radio" name="q1" value="correct"> Clinton </li>
+			<li> <input type="radio" name="q1" value="wrong"> Bush </li>
+			<li> <input type="radio" name="q1" value="wrong"> Obama </li>
+			<li> <input type="radio" name="q1" value="wrong"> Kennedy </li>
+            </ul>
+            
+			<p>Who is not the candidate of 2016 Presidential Election?</p>
+    		<ul>
+            <li> <input type = "radio" name="q2" value="wrong" > Cruz</li>
+			<li> <input type = "radio" name="q2" value="wrong" > Trump </li>
+			<li> <input type = "radio" name="q2" value="wrong" > Carson</li>
+			<li> <input type = "radio" name="q2" value="correct" > Kerry </li>
+    		</ul>
+
+ 			<p>Ban Ki－moon is the secretary of which organization?</p>
+    		<ul>
+            <li> <input type="radio" name="q3" value="correct" >United Nations</li>
+			<li> <input type="radio" name="q3" value="wrong" >Unicef</li>
+			<li> <input type="radio" name="q3" value="wrong" >Red Cross</li>
+			<li> <input type="radio" name="q3" value="wrong" >WTO</li>
+ 			</ul>
+ 			
+            <p>Who is the prime minister of Russia?</p>
+    		<ul>
+            <li> <input type="radio" name="q4" value="wrong" >Vladamir Putin</li>
+			<li> <input type="radio" name="q4" value="correct" >Dmitry Medvedev</li>
+			<li> <input type="radio" name="q4" value="wrong" >Valentina Matviyenko</li>
+			<li> <input type="radio" name="q4" value="wrong" >Sergey Naryshkin</li>
+    		</ul>
+            
+  			<p>What country is the smallest country in the world?</p>
+    		<ul>
+            <li> <input type="radio" name="q5" value="wrong" >Malta</li>
+            <li> <input type="radio" name="q5" value="wrong" >Maldives</li>
+            <li> <input type="radio" name="q5" value="wrong" >San Marino</li>
+            <li> <input type="radio" name="q5" value="correct" >Vatican</li>
+    		</ul>
+            
+            <p>Which NBA player retired recently?</p>
+    		<ul>
+            <li> <input type="radio" name="q6" value="wrong" >Magic Johnson</li>
+            <li> <input type="radio" name="q6" value="wrong" >Michael Jordan</li>
+            <li> <input type="radio" name="q6" value="correct" >Kobe Bryant</li>
+            <li> <input type="radio" name="q6" value="wrong" >Lebron James</li>
+    		</ul>
+    		
+            <p>The United States recently announced that it would re-establish diplomatic relations with which of the following countries?</p>
+    		<ul>
+            <li> <input type="radio" name="q7" value="wrong" >Russia</li>
+            <li> <input type="radio" name="q7" value="wrong" >North Korea</li>
+            <li> <input type="radio" name="q7" value="correct" >Cuba</li>
+            <li> <input type="radio" name="q7" value="wrong" >Yemen</li>
+    		</ul>
+            
+            <p>There are nine justices on the Supreme Court of the United States. How many are women?</p>
+    		<ul>
+            <li> <input type="radio" name="q8" value="wrong" >Four</li>
+            <li> <input type="radio" name="q8" value="correct" >Three</li>
+            <li> <input type="radio" name="q8" value="wrong" >Two</li>
+            <li> <input type="radio" name="q8" value="wrong" >One</li>
+    		</ul>
+    
+    </ol>
+    <input type="button" value="submit" onCLick="checkAll()">
+	<input type="reset" value="Clear">
+	
+    <textarea rows="10" cols="80" name="answersBox"> The Correct Answers will display here </textarea>
+
+    
+</form>
+</body>
+
+
+</html>

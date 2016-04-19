@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../fonts/abrilfatface-regular-webfont.eot');
+    src: url('../fonts/abrilfatface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abrilfatface-regular-webfont.woff') format('woff'),
+         url('../fonts/abrilfatface-regular-webfont.ttf') format('truetype'),
+         url('../fonts/abrilfatface-regular-webfont.svg#abril_fatfaceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-size:16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headers*/
+
+img.align-center {
+	display: block;
+	margin: 0px auto;}
+
+p {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+ul {
+	align-content:center;
+	color:#239247;
+	font-size:22px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	}
+
+	
+input[type="button"], input[type="submit"] {
+	margin-left: 40px;
+	font-size:20pt;
+}
+
+input[type="reset"] {
+	margin-right:40px;
+	font-size:20pt;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+textarea{
+	font-size:12pt;
+	color: red;
+}
